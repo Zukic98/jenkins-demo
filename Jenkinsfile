@@ -1,6 +1,10 @@
 pipeline {
     agent any 
 
+    tools{
+	dockerTool 'my-docker'
+    }
+
     stages {
         stage('1. Preuzimanje koda (Checkout)') {
             steps {
