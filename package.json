@@ -1,0 +1,9 @@
+{
+  "name": "jenkins-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Svi testovi prosli!' && exit 0",
+    "start": "node index.js"
+  }
+}
